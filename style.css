@@ -1,0 +1,96 @@
+body {
+    background-color: #23252C;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    width: 30%;    
+    background-color: rgb(13, 13, 14);
+    margin: 53px auto;
+    min-width: 350px;
+    height: auto;
+    border-radius: 15px;
+
+}
+img{
+    width: 100%;   
+    border-radius: 15px;
+    height: auto;
+}
+.bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.biolink1 {
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.biolink1:hover{
+    background-color: #23252C;
+    color: aliceblue;
+}
+
+.biolink2 {
+    width: 115px;
+    height: 35px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #5093E2;
+
+}
+.biolink2:hover{
+    background-color: #23252C;
+    color: aliceblue;
+}
+
+
+.fa-brand{
+    margin-right: 5px;
+}
+footer {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #27323d;
+    
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+
+.social-icon {
+    vertical-align: middle;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.social-icon>.fa {
+    width: 25px;
+    height: 25px;
+    background-color: #918E9B;
+    padding-top: 2px;
+    border-radius: 3px;
+}
+
+.social-icon>.fa:hover {
+    background-color: #c7c6c9;
+}
